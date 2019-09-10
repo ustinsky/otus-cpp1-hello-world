@@ -24,6 +24,11 @@ set_target_properties(${bTest}  PROPERTIES
     CXX_STANDARD_REQUIRED ON
 )
 
+set_target_properties(${gTest}  PROPERTIES
+    CXX_STANDARD 14
+    CXX_STANDARD_REQUIRED ON
+)
+
 if (MSVC)
     target_compile_options(${bTest} PRIVATE
         /W4
