@@ -11,8 +11,6 @@ set(Sources_bTest
     test_version.cpp 
 )
 
-add_custom_command("git submodule add https://github.com/google/googletest.git")
-
 add_executable(${gTest} ${Sources_gTest})
 add_executable(${bTest} ${Sources_bTest})
 
