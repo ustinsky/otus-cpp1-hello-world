@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../lib.cpp"
+#include "../lib.h"
 
 TEST(ExampleTests, DemonstrateGTestMacros) {
     EXPECT_TRUE( version() > 0 );

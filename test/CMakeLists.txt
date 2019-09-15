@@ -47,6 +47,12 @@ target_link_libraries(
 
 target_link_libraries(
     ${gTest}
+    ${Boost_LIBRARIES}
+    helloworld
+)
+
+target_link_libraries(
+    ${gTest}
     PUBLIC
     gtest_main
 )
