@@ -68,6 +68,6 @@ include(CPack)
 enable_testing()
 
 # add_test(test_version test_version)
-add_custom_command("git submodule add https://github.com/google/googletest.git")
+# add_custom_command(COMMAND "git submodule add https://github.com/google/googletest.git")
 add_subdirectory(googletest)
 add_subdirectory(test)
