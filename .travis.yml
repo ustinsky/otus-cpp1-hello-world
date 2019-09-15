@@ -3,7 +3,7 @@ before_script:
 - sudo apt-get install libboost-test-dev -y
 - echo "deb http://archive.ubuntu.com/ubuntu xenial main universe" | sudo tee -a /etc/apt/sources.list
 - sudo apt-get update -qq
-- git clone https://github.com/google/googletest.git
+# - git clone https://github.com/google/googletest.git
 script:
 - cmake .
 - cmake --build .
